@@ -1,0 +1,76 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+h1,
+h2 {
+    color: blueviolet;
+    padding-top: 20px;
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: black;
+}
+
+.FirstParagraph {
+    font-style: italic;
+}
+
+.main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* контейнер с картинкой */
+.nameboard {
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blueviolet;
+    padding: 10px;
+    background-color: rgb(242, 231, 243);
+}
+
+.nameboard>p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background-color: rgb(200, 163, 234)
+}
+
+.IMGhtml {
+    width: 270px;
+}
+
+.nameboard>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.IMGhtml5 {
+    width: 90px;
+    margin-bottom: 5px;
+}
+
+
+
+/* Лист-содержание */
+.BorderPG {
+    display: inline-block;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 1px;
+    padding-right: 10px;
+    background-color: rgb(242, 231, 243);
+}
+
+.BorderPG>ol {
+    padding-left: 25px;
+}
+
+.BorderPG>p {
+    text-align: center;
+    font-weight: bold;
+}

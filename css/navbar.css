@@ -1,0 +1,59 @@
+/* Верхняя навигационная панель */
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.nav-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-conteiner>nav>ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.nav-conteiner>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: blueviolet;
+    background-color: rgb(242, 231, 243);
+
+}
+
+.boxli{
+    transition: 0.15s ;
+}
+
+.boxli:hover{
+    box-shadow: 0 0 7px rgb(0, 0, 0, 0.80);   
+}
+
+.input-text{
+    border: none;
+    margin-left: 20px;
+    padding: 10px;
+    /* border-radius: 20px; */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.80);
+    transition: 0.15s;
+}
+.input-text:hover{
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.80);
+}
+
+
+
+
+
+@media (max-width: 843.5px) {
+    .nav-conteiner {
+        flex-direction: column;
+    }
+}
