@@ -30,6 +30,8 @@ a{
 
 .boxli{
     transition: 0.15s ;
+    white-space: nowrap;
+    margin: 1px;
 }
 
 .boxli:hover{
